@@ -64,7 +64,7 @@ function Infolink() {
 					<Image 
 						src="/images/hw_mainlogo.png"
 						alt="Company Logo"
-						width={270}
+						width={260}
 						height={115}
 						/>
 				</div>

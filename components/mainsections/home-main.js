@@ -25,8 +25,9 @@ function HomePage() {
 				<div className={HomePageStyles.asidesection}>
 					<div className={HomePageStyles.asidecontact}>
 						<p>
-							Whatever your metalworking needs may be, we're here to help and 
-							will be glad to answer any questions you may have.
+							Whatever your metalworking needs may be, we're  
+							happy to answer any questions you may have. We're 
+							here to help.
 						</p>
 						<p className={HomePageStyles.asidenumber}>
 							Call Us: +1(888) 777-2121

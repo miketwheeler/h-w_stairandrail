@@ -9,7 +9,7 @@ function MiniCardDeck(props)
 		{ image: "/images/icons/2x/2x-design.png", description: "Design, Repair, Redesign, and Remodeling"},
 		{ image: "/images/icons/2x/2x-stairs.png", description: "Ballast and Handrail"},
 		{ image: "/images/icons/2x/2x-home-city.png", description: "Commercial and Residential"},
-		{ image: "/images/icons/2x/2x-welder.png", description: "Interior and Exterior Metalwork"},
+		{ image: "/images/icons/2x/2x-welder.png", description: "Interior and Exterior Fabrication"},
 		{ image: "/images/icons/2x/2x-finishing.png", description: "Other Fixtures, Amenities, Painting and Refinishing"}
 	]
 	

@@ -7,8 +7,7 @@
 		"upper"
 		"services";
 }
-
-/*  */
+/* upper -mid section material */
 .upper{
 	grid-area: upper;
 	display: flex;
@@ -21,6 +20,10 @@
 	padding-right: 40px;
 	line-height: 1.3;
 }
+.titlesection h2 {
+	text-shadow: 0px 2px 6px rgba(87, 87, 87, 0.349);
+	font-weight: 600;
+}
 .mybar{
 	align-items: center;
 	/* padding-top: 60px;*/
@@ -31,24 +34,25 @@
 	border-radius: 30%;
 }
 .asidesection{
-	text-align: right;
-	min-width: 340px;
-	padding-top: 68px;
+	text-align: center;
+	min-width: 310px;
+	padding-top: 40px;
+	margin-left: 30px;
 }
 .asidecontact{
-	font-size: 24px;
-	font-weight: bold;
+	font-size: 26px;
+	font-weight: 600;
 	line-height: 1.3;
 }
 .asidenumber{
 	padding-top: 20px;
 }
 
-/*  */
+/* lower section material - dynamic cards */
 .servicesection{
 	/* border: 1px solid black; */
 	grid-area: services;
-	padding: 20px 20px;
+	padding: 0px 20px;
 	font-size: 22px;
-	text-shadow: 0px 2px 6px rgba(87, 87, 87, 0.493);
+	text-shadow: 0px 2px 6px rgba(87, 87, 87, 0.349);
 }

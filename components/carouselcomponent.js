@@ -17,7 +17,7 @@ function MyCarousel(props)
 		<div className={CarouselStyles.carouselcontainer}>
 			<Carousel 
 				animation={"slide"}
-				borderRadius={"20px"}
+				borderRadius={"10px"}
 				indicatorIconButtonProps={{
 					style: { padding: '10px' }
 				}}
@@ -40,7 +40,10 @@ function Item(props)
 {
     return (
         <Paper>
-            <Image src={props.item.image} width={"1320px"} height={"350px"}/>
+            <Image src={props.item.image} 
+				width={1320} 
+				height={350} 
+				/>
         </Paper>
     )
 }

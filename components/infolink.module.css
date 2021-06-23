@@ -16,7 +16,6 @@
 	background-color: rgb(53, 53, 53);
 	border-radius: 0px 25px 0px 0px;
 	display: flexbox;
-	/* font-size: medium; */
 	padding: 30px 30px 0px 39px;
 	line-height: 0px;
 	align-items: center;
@@ -54,24 +53,21 @@
 .socialbox{
 	grid-area: social;
 	max-height: 270px;
-	padding: 60px 48px 46px 48px;
-	
-	/* border: 1px solid rgba(0, 0, 0, 0.61); */
+	padding: 6px 48px 46px 48px;
 }
 .socialheader{
-	padding-bottom: 15px;
 	padding-left: 15px;
-	/* border: 1px solid rgba(0, 0, 0, 0.507); */
+	font-size: 22px;
+	text-shadow: 0px 2px 6px rgba(87, 87, 87, 0.349);
 }
 .socialicons{
 	padding: 0px 15px 0px 15px;
 	display: flex;
 	justify-content: space-between;
-	/* border: 1px solid rgba(0, 0, 0, 0.61); */
 }
-.socialicons {
+/* .socialicons {
 	text-shadow: 2px 2px 2px black;
-}
+} */
 
 .businessbox{
 	/* border: 1px solid black; */
@@ -83,7 +79,7 @@
 	
 }
 .businessicon {
-	margin: 24px 0px 0px 40px;
+	margin: 24px 10px 0px 40px;
 }
 
 .businessdetail{

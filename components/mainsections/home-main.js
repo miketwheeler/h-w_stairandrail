@@ -1,6 +1,6 @@
 import React from 'react'
 import HomePageStyles from './home-main.module.css'
-import Image from 'next/image'
+import MiniCardDeck from '../minicarddeck' 
 
 function HomePage() {
 	return (
@@ -36,7 +36,7 @@ function HomePage() {
 			</div>
 			<div className={HomePageStyles.servicesection}>
 				<h2>Our Services</h2>
-
+				<MiniCardDeck />
 			</div>
 		</div>
 	)

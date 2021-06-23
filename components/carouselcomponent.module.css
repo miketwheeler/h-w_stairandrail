@@ -2,9 +2,12 @@
 	height: 283px;
 	background-color: bisque;
 	padding-top: 10px;
+	border: 1px solid transparent;
+	border-radius: 20px;
 }
 
 .carouselcontainer {
+	border: 1px solid transparent;
 	border-radius: 20px;
 	display: flex;
 }

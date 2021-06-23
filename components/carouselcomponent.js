@@ -8,9 +8,9 @@ import CarouselStyles from './carouselcomponent.module.css'
 function MyCarousel(props)
 {
 	var items = [
-		{ name: "Welding", image: "/images/welding.jpg" },
+		{ name: "Welding", image: "/images/welding_railing.jpg" },
 		{ name: "Hardly Working", image: "/images/hardly_working.jpg" },
-		{ name: "Welding2", image: "/images/welding_railing.jpg" }
+		{ name: "Welding2", image: "/images/jigwelding.jpg" }
 	]
 
 	return (

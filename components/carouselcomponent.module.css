@@ -1,0 +1,10 @@
+.objparams{
+	height: 283px;
+	background-color: bisque;
+	padding-top: 10px;
+}
+
+.carouselcontainer {
+	border-radius: 20px;
+	display: flex;
+}

@@ -4,24 +4,28 @@
 	margin-right: auto;
 	padding-left: 16px;
 	padding-right: 16px;
+	border-left: 1px solid rgba(180, 180, 180, 0.26);
+	border-right: 1px solid rgba(180, 180, 180, 0.26);
 }
 
 .header {
 	display: flex;
 	justify-content: space-between;
-	padding: 1rem 10%;
+	padding: 0px 8%;
 	height: 158px;
-	background-color: lightblue;
-	border-style: dashed;
-	border-color: red;
+	background-color: white;
+	z-index: 2;
+	margin-bottom: 20px;
+	
+	/* border-style: dashed;
+	border-color: red; */
 }
 
 .logo {
-	font-size: 1.5rem;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	min-width: 310px;
+	min-height: 150px;
+	margin-top: 10px;
+	border:1px dashed red;
 }
 
 .navigation {
@@ -39,7 +43,9 @@
 	text-decoration: none;
 	align-self: center;
 	color: #070707;
-	font-size: 1rem;
+	font-size: 26px;
+	font-weight: 600;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	border-style: dashed;
 	border-color: red;
 	margin-right: 20px;

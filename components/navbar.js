@@ -8,10 +8,10 @@ function Navbar() {
 				<div className={NavbarStyle.logo}>
 					<Link href='/'>
 						<Image 
-							src="/images/hw-logo.png"
+							src="/images/hw_mainlogo.png"
 							alt="Company Logo"
-							width={220}
-							height={160}
+							width={310}
+							height={150}
 						/>
 					</Link>
 				</div>

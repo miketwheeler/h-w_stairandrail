@@ -1,13 +1,14 @@
-import Carousel from '../components/carousel'
+import CarouselComponent from '../components/carouselcomponent'
 import Mainsection from '../components/mainsection'
 import Infolink from '../components/infolink'
 import Footer from '../components/footer'
 
 
+
 export default function Home() {
   return (
 	  <>
-		<Carousel />
+		<CarouselComponent />
 		<Mainsection />
 		<Infolink />
 		<Footer />
